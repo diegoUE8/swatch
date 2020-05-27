@@ -64,37 +64,6 @@
       ]
     },
     {
-      "id": 2,
-      "name": "Woodwatch",
-      "likes": 146,
-      "added": false,
-      "ar": "models/goldwatch.usdz",
-      "envMapFolder": "equirectangular/",
-      "envMapFile": "snowy_forest_path_02_2k.hdr",
-      "items": [
-        {
-          "id": 21,
-          "type": "gltf",
-          "title": "modello 3d",
-          "gltfFolder": "orologi/",
-          "gltfFile": "woodwatch.glb"
-        },
-        {
-          "id": 22,
-          "type": "picture",
-          "title": "modello 3d",
-          "image": " "
-        },
-        {
-          "id": 23,
-          "type": "text",
-          "title": " ",
-          "abstract": " ",
-          "description": " "
-        }
-      ]
-    },
-    {
       "id": 4,
       "name": "Smartwatch",
       "likes": 33,
@@ -130,7 +99,7 @@
       "name": "Leatherwatch",
       "likes": 33,
       "added": false,
-      "ar": "models/watch1.usdz",
+      "ar": "models/leatherwatch.usdz",
       "envMapFolder": "equirectangular/",
       "envMapFile": "snowy_forest_path_02_2k.hdr",
       "items": [
@@ -161,7 +130,7 @@
       "name": "watch-ao",
       "likes": 33,
       "added": false,
-      "ar": "models/pYeokJ_40599vqkapco49uwatchao.usdz",
+      "ar": "models/watch-ao.usdz",
       "envMapFolder": "equirectangular/",
       "envMapFile": "snowy_forest_path_02_2k.hdr",
       "items": [
