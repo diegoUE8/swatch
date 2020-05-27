@@ -5,7 +5,7 @@
       "name": "Analog",
       "likes": 82,
       "added": false,
-      "ar": "models/watch1.usdz",
+      "ar": "models/analog.usdz",
       "envMapFolder": "equirectangular/",
       "envMapFile": "snowy_forest_path_02_2k.hdr",
       "items": [
@@ -31,37 +31,7 @@
         }
       ]
     },
-    {
-      "id": 4,
-      "name": "SmartSwatch",
-      "likes": 33,
-      "added": false,
-      "ar": "models/watch1.usdz",
-      "envMapFolder": "equirectangular/",
-      "envMapFile": "snowy_forest_path_02_2k.hdr",
-      "items": [
-        {
-          "id": 41,
-          "type": "gltf",
-          "title": "modello 3d",
-          "gltfFolder": "orologi/",
-          "gltfFile": "smartswatch.glb"
-        },
-        {
-          "id": 42,
-          "type": "picture",
-          "title": "modello 3d",
-          "image": ""
-        },
-        {
-          "id": 43,
-          "type": "text",
-          "title": " ",
-          "abstract": " ",
-          "description": " "
-        }
-      ]
-    },
+
     {
       "id": 1,
       "name": "GoldWatch",
@@ -107,7 +77,7 @@
           "type": "gltf",
           "title": "modello 3d",
           "gltfFolder": "orologi/",
-          "gltfFile": "watches.glb"
+          "gltfFile": "woodwatch.glb"
         },
         {
           "id": 22,
@@ -117,6 +87,37 @@
         },
         {
           "id": 23,
+          "type": "text",
+          "title": " ",
+          "abstract": " ",
+          "description": " "
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Smartwatch",
+      "likes": 33,
+      "added": false,
+      "ar": "models/smartwatch.usdz",
+      "envMapFolder": "equirectangular/",
+      "envMapFile": "snowy_forest_path_02_2k.hdr",
+      "items": [
+        {
+          "id": 41,
+          "type": "gltf",
+          "title": "modello 3d",
+          "gltfFolder": "orologi/",
+          "gltfFile": "smartswatch.glb"
+        },
+        {
+          "id": 42,
+          "type": "picture",
+          "title": "modello 3d",
+          "image": ""
+        },
+        {
+          "id": 43,
           "type": "text",
           "title": " ",
           "abstract": " ",
