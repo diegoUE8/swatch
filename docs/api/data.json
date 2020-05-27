@@ -107,7 +107,7 @@
           "type": "gltf",
           "title": "modello 3d",
           "gltfFolder": "orologi/",
-          "gltfFile": "woodwatch.glb"
+          "gltfFile": "watches.glb"
         },
         {
           "id": 22,
