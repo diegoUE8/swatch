@@ -37,7 +37,7 @@
       "name": "GoldWatch",
       "likes": 101,
       "added": false,
-      "ar": "models/watch1.usdz",
+      "ar": "models/goldwatch.usdz",
       "envMapFolder": "equirectangular/",
       "envMapFile": "snowy_forest_path_02_2k.hdr",
       "items": [
@@ -68,7 +68,7 @@
       "name": "Woodwatch",
       "likes": 146,
       "added": false,
-      "ar": "models/watch1.usdz",
+      "ar": "models/goldwatch.usdz",
       "envMapFolder": "equirectangular/",
       "envMapFile": "snowy_forest_path_02_2k.hdr",
       "items": [
