@@ -1,0 +1,191 @@
+{
+  "products": [
+    {
+      "id": 3,
+      "name": "Analog",
+      "likes": 82,
+      "added": false,
+      "ar": "models/watch1.usdz",
+      "envMapFolder": "equirectangular/",
+      "envMapFile": "snowy_forest_path_02_2k.hdr",
+      "items": [
+        {
+          "id": 31,
+          "type": "gltf",
+          "title": "modello 3d",
+          "gltfFolder": "orologi/",
+          "gltfFile": "analog.glb"
+        },
+        {
+          "id": 32,
+          "type": "picture",
+          "title": "modello 3d",
+          "image": ""
+        },
+        {
+          "id": 34,
+          "type": "text",
+          "title": " ",
+          "abstract": " ",
+          "description": " "
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "SmartSwatch",
+      "likes": 33,
+      "added": false,
+      "ar": "models/watch1.usdz",
+      "envMapFolder": "equirectangular/",
+      "envMapFile": "snowy_forest_path_02_2k.hdr",
+      "items": [
+        {
+          "id": 41,
+          "type": "gltf",
+          "title": "modello 3d",
+          "gltfFolder": "orologi/",
+          "gltfFile": "smartswatch.glb"
+        },
+        {
+          "id": 42,
+          "type": "picture",
+          "title": "modello 3d",
+          "image": ""
+        },
+        {
+          "id": 43,
+          "type": "text",
+          "title": " ",
+          "abstract": " ",
+          "description": " "
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "GoldWatch",
+      "likes": 101,
+      "added": false,
+      "ar": "models/watch1.usdz",
+      "envMapFolder": "equirectangular/",
+      "envMapFile": "snowy_forest_path_02_2k.hdr",
+      "items": [
+        {
+          "id": 11,
+          "type": "gltf",
+          "title": "modello 3d",
+          "gltfFolder": "orologi/",
+          "gltfFile": "goldwatch.glb"
+        },
+        {
+          "id": 13,
+          "type": "picture",
+          "title": "modello 3d",
+          "image": " "
+        },
+        {
+          "id": 15,
+          "type": "text",
+          "title": " ",
+          "abstract": " ",
+          "description": " "
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Woodwatch",
+      "likes": 146,
+      "added": false,
+      "ar": "models/watch1.usdz",
+      "envMapFolder": "equirectangular/",
+      "envMapFile": "snowy_forest_path_02_2k.hdr",
+      "items": [
+        {
+          "id": 21,
+          "type": "gltf",
+          "title": "modello 3d",
+          "gltfFolder": "orologi/",
+          "gltfFile": "woodwatch.glb"
+        },
+        {
+          "id": 22,
+          "type": "picture",
+          "title": "modello 3d",
+          "image": " "
+        },
+        {
+          "id": 23,
+          "type": "text",
+          "title": " ",
+          "abstract": " ",
+          "description": " "
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Leatherwatch",
+      "likes": 33,
+      "added": false,
+      "ar": "models/watch1.usdz",
+      "envMapFolder": "equirectangular/",
+      "envMapFile": "snowy_forest_path_02_2k.hdr",
+      "items": [
+        {
+          "id": 51,
+          "type": "gltf",
+          "title": "modello 3d",
+          "gltfFolder": "orologi/",
+          "gltfFile": "watch1.glb"
+        },
+        {
+          "id": 52,
+          "type": "picture",
+          "title": "modello 3d",
+          "image": ""
+        },
+        {
+          "id": 53,
+          "type": "text",
+          "title": " ",
+          "abstract": " ",
+          "description": " "
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "watch-ao",
+      "likes": 33,
+      "added": false,
+      "ar": "models/watch-ao.usdz",
+      "envMapFolder": "equirectangular/",
+      "envMapFile": "snowy_forest_path_02_2k.hdr",
+      "items": [
+        {
+          "id": 61,
+          "type": "gltf",
+          "title": "modello 3d",
+          "gltfFolder": "orologi/",
+          "gltfFile": "watch-ao.glb"
+        },
+        {
+          "id": 62,
+          "type": "picture",
+          "title": "modello 3d",
+          "image": ""
+        },
+        {
+          "id": 63,
+          "type": "text",
+          "title": " ",
+          "abstract": " ",
+          "description": " "
+        }
+      ]
+    }
+    
+  ]
+}

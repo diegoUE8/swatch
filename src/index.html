@@ -1,0 +1,130 @@
+<!-- @@master = ./templates/layout.html { "baseHref": "/swatch/" } -->
+
+<!-- @@block = main-->
+
+<!--<div class="ui" *if="!state.connected">
+	<div class="group--info">
+		<button type="button" class="btn--connect" [class]="{ disabled: !state.mediaEnabled }"
+			(click)="state.mediaEnabled && connect()">
+			<svg width="24" height="24" viewBox="0 0 24 24">
+				<use xlink:href="#call"></use>
+			</svg>
+			<span *if="!state.connecting">Entra</span>
+			<span *if="state.connecting">In connessione...</span>
+		</button>
+		<div class="info" *if="!state.mediaEnabled">camera o microfono non disponibili</div>
+	</div>
+</div>-->
+
+<div class="ui" >
+	
+	<div class="ui__head">
+		<div class="group--remote">
+			<div class="video video--remote" [class]="{ disabled: !state.remote }"></div>
+		</div>
+		<div class="group--select" *if="form">
+			<form class="form" [formGroup]="form" (submit)="onSubmit()" name="form" role="form" novalidate
+				autocomplete="off">
+				<div control-custom-select [control]="controls.product" label="Prodotto"></div>
+			</form>
+		</div>
+		<div class="group--local" [class]="{ publisher: state.role == 'publisher' }">
+			<button type="button" class="btn--control" [class]="{ active: state.control }"
+				(click)="toggleControl($event)" *if="state.role == 'publisher'">
+				<svg width="24" height="24" viewBox="0 0 24 24">
+					<use xlink:href="#gamepad"></use>
+				</svg>
+			</button>
+			<div class="video video--local" [class]="{ disabled: !state.local }"></div>
+		</div>
+	</div>
+
+	<div class="ui__body">
+		<div class="model-viewer" model-viewer [item]="item" [items]="items" (change)="onChange($event)"
+			(rotate)="onRotate($event)">
+			<div class="model-viewer__view">
+				<!-- SLIDER -->
+				
+				<div class="slider-container" slider [items]="items" (tween)="onTween($event)"
+					(change)="onChange($event)" *if="items.length">
+					<div class="slider-inner">
+						<div class="slider-slide" *for="let item of items; let index = index;">
+							<div class="model-viewer__item" model-gltf [item]="item" *if="item.type == 'gltf'">
+								<div class="progress" [innerHTML]="progress + '%'" *if="progress"></div>
+							</div>
+							<div class="model-viewer__item" model-picture [item]="item" *if="item.type == 'picture'">
+								<img [src]="item.image" />
+							</div>
+							<div class="model-viewer__item" model-text [item]="item" *if="item.type == 'text'">
+								<div class="title" [innerHTML]="item.title" *if="item.title"></div>
+								<div class="abstract" [innerHTML]="item.abstract" *if="item.abstract"></div>
+								<div class="description" [innerHTML]="item.description" *if="item.description"></div>
+							</div>
+							<div class="model-viewer__item" model [item]="item" *if="!item.type"></div>
+						</div>
+					</div>
+					<!--
+					<div class="slider-pagination">
+						<button type="button" class="btn--prev" [class]="{ disabled: !hasPrev() }"
+							(click)="navTo(current - 1)">
+							<svg class="arrow-prev">
+								<use xlink:href="#arrow-prev"></use>
+							</svg>
+						</button>
+						<button type="button" class="btn--next" [class]="{ disabled: !hasNext() }"
+							(click)="navTo(current + 1)">
+							<svg class="arrow-next">
+								<use xlink:href="#arrow-next"></use>
+							</svg>
+						</button>
+					</div>
+					<div class="slider-bullets">
+						<span class="slider-bullet" [class]="{ active: index === current }"
+							*for="let slide of items; let index = index" (click)="navTo(index)"></span>
+					</div>-->
+				</div>
+
+			</div>
+			<div class="model-viewer__info"></div>
+		</div>
+	</div>
+
+	<div class="ui__foot">
+		<div class="left">
+			<div class="group--controls">
+				<!-- 
+				<button type="button" class="btn--call" (click)="disconnect()">
+					<svg width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#call"></use></svg>
+				</button>
+				<button type="button" class="btn--cam" [class]="{ muted: state.cameraMuted, disabled: !state.local }" (click)="toggleCamera()">
+					<svg width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#cam"></use></svg>
+				</button>
+				<button type="button" class="btn--mic" [class]="{ muted: state.audioMuted, disabled: !state.local }" (click)="toggleAudio()">
+					<svg width="24" height="24" viewBox="0 0 24 24"><use xlink:href="#mic"></use></svg>
+				</button> -->
+			</div>
+		</div>
+		<div class="center">
+			<button type="button" class="btn--ar" [href]="item?.ar" (click)="tryInAr()" *if="item?.ar">
+				<svg width="24" height="24" viewBox="0 0 24 24">
+					<use xlink:href="#ar"></use>
+				</svg> <span>Try in AR</span>
+			</button>
+			<!-- <span *if="!item?.ar">&nbsp;</span> -->
+		</div>
+		<div class="right">
+			<button type="button" class="btn--heart" [class]="{ active: item?.added }" (click)="addToWishlist($event)">
+				<svg width="24" height="24" viewBox="0 0 24 24">
+					<use xlink:href="#heart"></use>
+				</svg>
+				<span class="badge" [innerHTML]="item?.likes"></span>
+			</button>
+		</div>
+	</div>
+
+	<div class="ui__lock" (mousedown)="onPrevent($event)" (touchstart)="onPrevent($event)" *if="state.locked"></div>
+	<div class="ui__lock control" *if="state.control"></div>
+
+</div>
+
+<!-- @@close-->
