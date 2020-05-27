@@ -155,6 +155,37 @@
           "description": " "
         }
       ]
+    },
+    {
+      "id": 7,
+      "name": "Casio",
+      "likes": 33,
+      "added": false,
+      "ar": "models/leatherwatch.usdz",
+      "envMapFolder": "equirectangular/",
+      "envMapFile": "snowy_forest_path_02_2k.hdr",
+      "items": [
+        {
+          "id": 71,
+          "type": "gltf",
+          "title": "modello 3d",
+          "gltfFolder": "orologi/",
+          "gltfFile": "casio.glb"
+        },
+        {
+          "id": 72,
+          "type": "picture",
+          "title": "modello 3d",
+          "image": ""
+        },
+        {
+          "id": 73,
+          "type": "text",
+          "title": " ",
+          "abstract": " ",
+          "description": " "
+        }
+      ]
     }
     
   ]
