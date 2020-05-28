@@ -161,9 +161,9 @@
       "name": "Casio",
       "likes": 33,
       "added": false,
-      "ar": "models/leatherwatch.usdz",
+      "ar": "models/casio.usdz",
       "envMapFolder": "equirectangular/",
-      "envMapFile": "snowy_forest_path_02_2k.hdr",
+      "envMapFile": "adams_place_bridge_2k.hdr",
       "items": [
         {
           "id": 71,
@@ -192,9 +192,9 @@
       "name": "Rolex",
       "likes": 33,
       "added": false,
-      "ar": "models/leatherwatch.usdz",
+      "ar": "models/rolex.usdz",
       "envMapFolder": "equirectangular/",
-      "envMapFile": "snowy_forest_path_02_2k.hdr",
+      "envMapFile": "adams_place_bridge_2k.hdr",
       "items": [
         {
           "id": 81,
@@ -217,6 +217,37 @@
           "description": " "
         }
       ]
-    }    
+    }, 
+    {
+      "id": 9,
+      "name": "WatchFREE",
+      "likes": 33,
+      "added": false,
+      "ar": "models/analog.usdz",
+      "envMapFolder": "equirectangular/",
+      "envMapFile": "snowy_forest_path_02_2k.hdr",
+      "items": [
+        {
+          "id": 91,
+          "type": "gltf",
+          "title": "modello 3d",
+          "gltfFolder": "orologi/",
+          "gltfFile": "watchfree.glb"
+        },
+        {
+          "id": 92,
+          "type": "picture",
+          "title": "modello 3d",
+          "image": ""
+        },
+        {
+          "id": 93,
+          "type": "text",
+          "title": " ",
+          "abstract": " ",
+          "description": " "
+        }
+      ]
+    }       
   ]
 }
