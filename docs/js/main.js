@@ -331,7 +331,7 @@
       }
 
       this.loadData();
-      this.checkCamera();
+      //this.checkCamera();
     };
 
     _proto.checkCamera = function checkCamera() {
