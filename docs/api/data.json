@@ -25,7 +25,7 @@
       "added": false,
       "ar": "models/watch-ao.usdz",
       "envMapFolder": "equirectangular/",
-      "envMapFile": "back.jpg",
+      "envMapFile": "snowy.hdr",
       "items": [
         {
           "id": 10,
@@ -44,7 +44,7 @@
       "added": false,
       "ar": "models/analog.usdz",
       "envMapFolder": "equirectangular/",
-      "envMapFile": "back.jpg",
+      "envMapFile": "snowy2.jpg",
       "items": [
         {
           "id": 10,
