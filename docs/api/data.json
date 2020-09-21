@@ -1,251 +1,57 @@
 {
   "products": [
     {
-      "id": 6,
-      "name": "watch-ao",
+      "id": 1,
+      "name": "Watch 1",
       "likes": 33,
       "added": false,
-      "ar": "models/watch-ao.usdz",
+      "ar": "models/casio.usdz",
       "envMapFolder": "equirectangular/",
-      "envMapFile": "snowy_forest_path_02_2k.hdr",
+      "envMapFile": "snowy.hdr",
       "items": [
         {
-          "id": 61,
+          "id": 10,
           "type": "gltf",
           "title": "modello 3d",
           "gltfFolder": "orologi/",
-          "gltfFile": "watch-ao.glb"
-        },
-        {
-          "id": 62,
-          "type": "picture",
-          "title": "modello 3d",
-          "image": ""
-        },
-        {
-          "id": 63,
-          "type": "text",
-          "title": " ",
-          "abstract": " ",
-          "description": " "
+          "gltfFile": "casio.glb"
         }
       ]
     },
     {
-      "id": 3,
-      "name": "Analog",
+      "id": 2,
+      "name": "Watch 2",
       "likes": 82,
       "added": false,
-      "ar": "models/analog.usdz",
+      "ar": "models/watch-ao.usdz",
       "envMapFolder": "equirectangular/",
-      "envMapFile": "snowy_forest_path_02_2k.hdr",
+      "envMapFile": "back.jpg",
       "items": [
         {
-          "id": 31,
+          "id": 10,
           "type": "gltf",
           "title": "modello 3d",
           "gltfFolder": "orologi/",
-          "gltfFile": "analog.glb"
-        },
-        {
-          "id": 32,
-          "type": "picture",
-          "title": "modello 3d",
-          "image": ""
-        },
-        {
-          "id": 34,
-          "type": "text",
-          "title": " ",
-          "abstract": " ",
-          "description": " "
+          "gltfFile": "watch-ao.glb"
         }
       ]
     },
 
     {
-      "id": 1,
-      "name": "GoldWatch",
+      "id": 3,
+      "name": "Watch 3",
       "likes": 101,
       "added": false,
-      "ar": "models/goldwatch.usdz",
+      "ar": "models/watchfree.usdz",
       "envMapFolder": "equirectangular/",
-      "envMapFile": "snowy_forest_path_02_2k.hdr",
+      "envMapFile": "back.jpg",
       "items": [
         {
-          "id": 11,
-          "type": "gltf",
-          "title": "modello 3d",
-          "gltfFolder": "orologi/",
-          "gltfFile": "goldwatch.glb"
-        },
-        {
-          "id": 13,
-          "type": "picture",
-          "title": "modello 3d",
-          "image": " "
-        },
-        {
-          "id": 15,
-          "type": "text",
-          "title": " ",
-          "abstract": " ",
-          "description": " "
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "name": "Smartwatch",
-      "likes": 33,
-      "added": false,
-      "ar": "models/smartwatch.usdz",
-      "envMapFolder": "equirectangular/",
-      "envMapFile": "snowy_forest_path_02_2k.hdr",
-      "items": [
-        {
-          "id": 41,
-          "type": "gltf",
-          "title": "modello 3d",
-          "gltfFolder": "orologi/",
-          "gltfFile": "smartswatch.glb"
-        },
-        {
-          "id": 42,
-          "type": "picture",
-          "title": "modello 3d",
-          "image": ""
-        },
-        {
-          "id": 43,
-          "type": "text",
-          "title": " ",
-          "abstract": " ",
-          "description": " "
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "name": "Leatherwatch",
-      "likes": 33,
-      "added": false,
-      "ar": "models/leatherwatch.usdz",
-      "envMapFolder": "equirectangular/",
-      "envMapFile": "snowy_forest_path_02_2k.hdr",
-      "items": [
-        {
-          "id": 51,
-          "type": "gltf",
-          "title": "modello 3d",
-          "gltfFolder": "orologi/",
-          "gltfFile": "watch1.glb"
-        },
-        {
-          "id": 52,
-          "type": "picture",
-          "title": "modello 3d",
-          "image": ""
-        },
-        {
-          "id": 53,
-          "type": "text",
-          "title": " ",
-          "abstract": " ",
-          "description": " "
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "name": "Casio",
-      "likes": 33,
-      "added": false,
-      "ar": "models/casio.usdz",
-      "envMapFolder": "equirectangular/",
-      "envMapFile": "adams_place_bridge_2k.hdr",
-      "items": [
-        {
-          "id": 71,
-          "type": "gltf",
-          "title": "modello 3d",
-          "gltfFolder": "orologi/",
-          "gltfFile": "casio.glb"
-        },
-        {
-          "id": 72,
-          "type": "picture",
-          "title": "modello 3d",
-          "image": ""
-        },
-        {
-          "id": 73,
-          "type": "text",
-          "title": " ",
-          "abstract": " ",
-          "description": " "
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "name": "Rolex",
-      "likes": 33,
-      "added": false,
-      "ar": "models/rolex.usdz",
-      "envMapFolder": "equirectangular/",
-      "envMapFile": "adams_place_bridge_2k.hdr",
-      "items": [
-        {
-          "id": 81,
-          "type": "gltf",
-          "title": "modello 3d",
-          "gltfFolder": "orologi/",
-          "gltfFile": "rolex.glb"
-        },
-        {
-          "id": 82,
-          "type": "picture",
-          "title": "modello 3d",
-          "image": ""
-        },
-        {
-          "id": 83,
-          "type": "text",
-          "title": " ",
-          "abstract": " ",
-          "description": " "
-        }
-      ]
-    }, 
-    {
-      "id": 9,
-      "name": "WatchFREE",
-      "likes": 33,
-      "added": false,
-      "ar": "models/analog.usdz",
-      "envMapFolder": "equirectangular/",
-      "envMapFile": "snowy_forest_path_02_2k.hdr",
-      "items": [
-        {
-          "id": 91,
+          "id": 10,
           "type": "gltf",
           "title": "modello 3d",
           "gltfFolder": "orologi/",
           "gltfFile": "watchfree.glb"
-        },
-        {
-          "id": 92,
-          "type": "picture",
-          "title": "modello 3d",
-          "image": ""
-        },
-        {
-          "id": 93,
-          "type": "text",
-          "title": " ",
-          "abstract": " ",
-          "description": " "
         }
       ]
     }       

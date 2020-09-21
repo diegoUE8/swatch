@@ -331,7 +331,7 @@
       }
 
       this.loadData();
-      /*this.checkCamera();*/
+      this.checkCamera();
     };
 
     _proto.checkCamera = function checkCamera() {
@@ -55612,18 +55612,18 @@ vec4 envMapTexelToLinear(vec4 color) {
       var controls = this.controls = new OrbitControls(camera, renderer.domElement);
       controls.enablePan = false;
       controls.enableKeys = false;
-      controls.minDistance = 1;
-      controls.maxDistance = 100;
+      controls.minDistance = 2;
+      controls.maxDistance = 10;
       controls.target.set(0, 0, 0);
       controls.update();
       this.drag$().pipe(operators.takeUntil(this.unsubscribe$)).subscribe(function (event) {// console.log('dragService', event);
       });
       var scene = this.scene = new THREE.Scene();
-      var panorama = this.panorama = new Panorama(); //scene.add(panorama.mesh);
-
+      var panorama = this.panorama = new Panorama();
+      scene.add(panorama.mesh);
       var objects = this.objects = new THREE.Group();
       scene.add(objects);
-      var light = new THREE.DirectionalLight(0xffe699, 3);
+      var light = new THREE.DirectionalLight(0xffe699, 8);
       light.position.set(5, -5, 5);
       light.target.position.set(0, 0, 0);
       scene.add(light);

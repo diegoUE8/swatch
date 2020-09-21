@@ -89,8 +89,8 @@ export class ModelViewerComponent extends Component {
 		const controls = this.controls = new OrbitControls(camera, renderer.domElement);
 		controls.enablePan = false;
 		controls.enableKeys = false;
-		controls.minDistance = 1;
-		controls.maxDistance = 100;
+		controls.minDistance = 2;
+		controls.maxDistance = 10;
 		controls.target.set(0, 0, 0);
 		controls.update();
 		
@@ -104,13 +104,13 @@ export class ModelViewerComponent extends Component {
 		const scene = this.scene = new THREE.Scene();
 
 		const panorama = this.panorama = new Panorama();
-		//scene.add(panorama.mesh);
+		scene.add(panorama.mesh);
 
 		const objects = this.objects = new THREE.Group();
 		scene.add(objects);
 
 		
-		const light = new THREE.DirectionalLight(0xffe699, 3);
+		const light = new THREE.DirectionalLight(0xffe699, 8);
 		light.position.set(5, -5, 5);
 		light.target.position.set(0, 0, 0);
 		scene.add(light);
