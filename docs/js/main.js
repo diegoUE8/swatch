@@ -55496,7 +55496,7 @@ vec4 envMapTexelToLinear(vec4 color) {
     var _proto = Panorama.prototype;
 
     _proto.create = function create() {
-      var geometry = new THREE.SphereBufferGeometry(500, 60, 40);
+      var geometry = new THREE.SphereBufferGeometry(101, 60, 40);
       geometry.scale(-1, 1, 1); // const material = new THREE.MeshBasicMaterial();
 
       var material = new THREE.ShaderMaterial({

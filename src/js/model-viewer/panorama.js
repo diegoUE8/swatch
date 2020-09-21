@@ -64,7 +64,7 @@ export class Panorama {
 	}
 
 	create() {
-		const geometry = new THREE.SphereBufferGeometry(500, 60, 40);
+		const geometry = new THREE.SphereBufferGeometry(101, 60, 40);
 		geometry.scale(-1, 1, 1);
 		// const material = new THREE.MeshBasicMaterial();
 		const material = new THREE.ShaderMaterial({

@@ -1,31 +1,14 @@
 {
   "products": [
+    
     {
       "id": 1,
       "name": "Watch 1",
-      "likes": 33,
-      "added": false,
-      "ar": "models/casio.usdz",
-      "envMapFolder": "equirectangular/",
-      "envMapFile": "snowy.hdr",
-      "items": [
-        {
-          "id": 10,
-          "type": "gltf",
-          "title": "modello 3d",
-          "gltfFolder": "orologi/",
-          "gltfFile": "casio.glb"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Watch 2",
       "likes": 82,
       "added": false,
       "ar": "models/watch-ao.usdz",
       "envMapFolder": "equirectangular/",
-      "envMapFile": "snowy.hdr",
+      "envMapFile": "snowy2.hdr",
       "items": [
         {
           "id": 10,
@@ -36,24 +19,23 @@
         }
       ]
     },
-
     {
-      "id": 3,
-      "name": "Watch 3",
-      "likes": 101,
+      "id": 2,
+      "name": "Watch 2",
+      "likes": 70,
       "added": false,
-      "ar": "models/analog.usdz",
+      "ar": "models/watch-ao2.usdz",
       "envMapFolder": "equirectangular/",
-      "envMapFile": "snowy2.jpg",
+      "envMapFile": "snowy2.hdr",
       "items": [
         {
           "id": 10,
           "type": "gltf",
           "title": "modello 3d",
           "gltfFolder": "orologi/",
-          "gltfFile": "watchfree.glb"
+          "gltfFile": "watch-ao2.glb"
         }
       ]
-    }       
+    }    
   ]
 }
