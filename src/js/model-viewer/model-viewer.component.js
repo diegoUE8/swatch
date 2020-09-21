@@ -104,7 +104,7 @@ export class ModelViewerComponent extends Component {
 		const scene = this.scene = new THREE.Scene();
 
 		const panorama = this.panorama = new Panorama();
-		scene.add(panorama.mesh);
+		//scene.add(panorama.mesh);
 
 		const objects = this.objects = new THREE.Group();
 		scene.add(objects);

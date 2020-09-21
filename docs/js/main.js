@@ -55619,8 +55619,8 @@ vec4 envMapTexelToLinear(vec4 color) {
       this.drag$().pipe(operators.takeUntil(this.unsubscribe$)).subscribe(function (event) {// console.log('dragService', event);
       });
       var scene = this.scene = new THREE.Scene();
-      var panorama = this.panorama = new Panorama();
-      scene.add(panorama.mesh);
+      var panorama = this.panorama = new Panorama(); //scene.add(panorama.mesh);
+
       var objects = this.objects = new THREE.Group();
       scene.add(objects);
       var light = new THREE.DirectionalLight(0xffe699, 8);
