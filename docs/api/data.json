@@ -42,7 +42,7 @@
       "name": "Watch 3",
       "likes": 101,
       "added": false,
-      "ar": "models/watchfree.usdz",
+      "ar": "models/analog.usdz",
       "envMapFolder": "equirectangular/",
       "envMapFile": "back.jpg",
       "items": [

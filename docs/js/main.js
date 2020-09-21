@@ -55612,7 +55612,7 @@ vec4 envMapTexelToLinear(vec4 color) {
       var controls = this.controls = new OrbitControls(camera, renderer.domElement);
       controls.enablePan = false;
       controls.enableKeys = false;
-      controls.minDistance = 2;
+      controls.minDistance = 1;
       controls.maxDistance = 10;
       controls.target.set(0, 0, 0);
       controls.update();
