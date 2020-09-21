@@ -24,7 +24,7 @@
       "name": "Watch 2",
       "likes": 70,
       "added": false,
-      "ar": "models/watch-ao2.usdz",
+      "ar": "models/watch2.usdz",
       "envMapFolder": "equirectangular/",
       "envMapFile": "snowy2.hdr",
       "items": [
