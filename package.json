@@ -33,6 +33,6 @@
   },
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulpfile-config": "~1.0.0-alpha.9"
+    "gulpfile-config": "^1.0.0-alpha.14"
   }
 }

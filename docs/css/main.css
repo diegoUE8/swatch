@@ -99,7 +99,6 @@ img {
   bottom: 0;
   pointer-events: none; }
   .sticky--menu .section--menu {
-    position: -webkit-sticky;
     position: sticky;
     top: 15px;
     width: 100%;
@@ -213,7 +212,6 @@ button, .btn--heart, .btn--close {
   outline: none;
   background: none;
   -webkit-appearance: none;
-     -moz-appearance: none;
           appearance: none;
   font: inherit;
   cursor: pointer;
@@ -323,10 +321,6 @@ button, .btn--heart, .btn--close {
   text-transform: uppercase;
   color: rgba(16, 16, 16, 0.4); }
 
-.control--text::-ms-input-placeholder, .control--select::-ms-input-placeholder {
-  text-transform: uppercase;
-  color: rgba(16, 16, 16, 0.4); }
-
 .control--text::placeholder, .control--select::placeholder {
   text-transform: uppercase;
   color: rgba(16, 16, 16, 0.4); }
@@ -355,7 +349,6 @@ button, .btn--heart, .btn--close {
   border: none;
   outline: none;
   -webkit-appearance: none;
-     -moz-appearance: none;
           appearance: none;
   color: #101010;
   font-family: "Maven Pro", sans-serif;
@@ -379,12 +372,6 @@ button, .btn--heart, .btn--close {
     -webkit-transition: background-color 5000s ease-in-out 0s;
     transition: background-color 5000s ease-in-out 0s; }
   .control--text:-ms-input-placeholder, .control--select:-ms-input-placeholder {
-    font-family: "Maven Pro", sans-serif;
-    font-size: 34px;
-    font-weight: 300;
-    letter-spacing: 0;
-    line-height: 1; }
-  .control--text::-ms-input-placeholder, .control--select::-ms-input-placeholder {
     font-family: "Maven Pro", sans-serif;
     font-size: 34px;
     font-weight: 300;
@@ -522,7 +509,6 @@ fieldset,
     cursor: pointer; }
   .group--form--checkbox input {
     -webkit-appearance: none;
-       -moz-appearance: none;
             appearance: none;
     padding: 0;
     margin: 0 10px 0 0;
